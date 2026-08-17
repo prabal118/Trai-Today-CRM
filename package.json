@@ -1,0 +1,14 @@
+{
+  "name": "trai-crm-backend",
+  "version": "0.2.0",
+  "description": "Trai Media Ops — real backend, Turso (libSQL) database",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.14.0"
+  }
+}
